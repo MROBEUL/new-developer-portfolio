@@ -9,6 +9,12 @@ h1{
 h2{
     font-size: 30px;
 }
+h4{
+    font-size: 10px;
+    color: lightgray;
+    text-align: center;
+    padding-bottom: 20px;
+}
 p{
     text-align: justify;
 }
@@ -62,10 +68,20 @@ span{
     margin-left: 5%;
     margin-right: 5%;
     margin-bottom: 100px;
+    border-radius: 5px;
     box-shadow: 10px 10px 40px gray;
 }
 .lower-banner{
     background-image: url(pictures/exp-bg.png);
-    background-repeat: no-repeat;
-    padding-top: 100px;
+    background-repeat: no-repeat; 
+}
+#Baby-Web-Developer{
+    border-left: 5px solid;
+    border-image:linear-gradient(tomato, yellow);
+    border-image-slice: 1;
+}
+#Full-Stack-Web-Developer{
+    border-left: 5px solid;
+    border-image: linear-gradient(purple, violet);
+    border-image-slice: 1;
 }
